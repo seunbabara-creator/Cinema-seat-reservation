@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>Book A Seat</title>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <div id="movierack">
+            <label for='choices'><h1>
+                Please choose a movie:
+            </h1></label>
+            <select id="choices">
+                <option>The Terminal List[#700]</option>
+                <option>The Boys (Season 3)[#1000]</option>
+                <option>Hidden Figures[#800]</option>
+                <option>The Princess[#800]</option>
+                <option>Jurassic World Dominion[#800]</option>
+                <option>The Man From Toronto[#800]</option>
+                <option>Crimes of the Future[#1000]</option>
+                <option>Last Seen Alive[#1500]</option>
+                <option>White Elephant[#800]</option>
+                <option>Fire Island[#800]</option>
+            </select>
+        </div>
+        <div id="pointerscreen">
+            <div class="av"></div>
+            <p class="p1">Available seats</p>
+            <div class="nav"></div>
+            <p class="p1">Booked Seats</p>
+            <div class="sav"></div>
+            <p class="p1">Selected Seats</p> 
+        </div>
+        <div id="thscreen">
+
+        </div>
+        <div id="seatscon">
+        <div id="thseats1">
+
+            <div class="th1">
+                <div class="av" ></div>
+                <input type="checkbox" value="A1" id="yes1" >
+                <div class="av" ></div>
+                <input type="checkbox" value="A2" id="yes2">
+                <div class="av"></div>
+                <input type="checkbox" value="A3" id="yes3" >
+                <div class="nav" disabled></div>
+            </div>
+            
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="nav" disabled></div>
+                <div class="av"></div>
+                <input type="checkbox" value="B3" id="yes4">
+                <div class="av"></div>
+                <input type="checkbox" value="B4" id="yes5"> 
+            </div>
+
+            <div class="th1">
+               <div class="nav" disabled></div>
+               <div class="av"></div>
+               <input type="checkbox" value="C2" id="yes6">
+               <div class="nav" disabled></div>
+               <div class="av"></div> 
+               <input type="checkbox" value="C4" id="yes7">
+            </div>
+    
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="nav" disabled></div>
+                <div class="av"></div>
+                <input type="checkbox" value="D3" id="yes8">
+                <div class="av"></div> 
+                <input type="checkbox" value="D4" id="yes9">
+            </div>
+    
+        </div>
+        <div id="thseats2">
+
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="nav" disabled></div>
+                <div class="av"></div>
+                <input type="checkbox" value="E3" id="yes10">
+                <div class="av"></div> 
+                <input type="checkbox" value="E4" id="yes11">
+            </div>
+
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="av"></div>
+                <input type="checkbox" value="F2" id="yes12">
+                <div class="nav" disabled></div>
+                <div class="av"></div> 
+                <input type="checkbox" value="F4" id="yes13">
+            </div>
+    
+            <div class="th1">
+                <div class="av"></div>
+                <input type="checkbox" value="G1" id="yes14">
+                <div class="av"></div>
+                <input type="checkbox" value="G2" id="yes15">
+                <div class="nav" disabled></div>
+                <div class="nav" disabled></div> 
+            </div>
+    
+            <div class="th1">
+                <div class="av"></div>
+                <input type="checkbox" value="H1" id="yes16">
+                <div class="av"></div>
+                <input type="checkbox" value="H2" id="yes17">
+                <div class="av"></div>
+                <div class="av"></div> 
+                <input type="checkbox" value="H4" id="yes18">
+            </div>
+        </div>
+    
+        <div id="thseats3">
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="nav" disabled></div>
+                <div class="nav"></div>
+                <div class="nav"></div> 
+           </div>
+
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="nav"></div>
+                <div class="nav" disabled></div>
+                <div class="nav"></div> 
+           </div>
+    
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="nav"></div>
+                <div class="nav" disabled></div>
+                <div class="nav"></div> 
+           </div>
+
+            <div class="th1">
+                <div class="nav" disabled></div>
+                <div class="av"></div>
+                <input type="checkbox" value="L2" id="yes19">
+                <div class="nav" disabled></div>
+                <div class="av"></div> 
+                <input type="checkbox" value="L4" id="yes20">
+            </div>
+            
+        </div>
+        </div> 
+        </div>
+        </div>
+        <div id="counter">
+            <div id="countertxt">
+                <h1>You have selected:</h1>
+            </div>
+            <div id="countermpt">
+               <h2>Movie:</h2>
+               <textarea id="mvtxt"></textarea>
+               <h2>Seats:</h2>
+               <textarea id="sttxt"></textarea>
+            </div>
+        </div>
+        <p align="center">
+            NOTE:
+            Each seat costs #1000
+        </p>
+        <div align="center">
+        <button onclick="movie();checked();ch2();ch3();ch4();ch5();ch6();ch7();ch8();ch9();ch10();ch11();ch12();ch13();ch14();ch15();ch16();ch17();ch18();ch19();ch20()">
+            Finish</button>
+        <button>Make Payment</button>
+        </div>
+    </body>
+</html>
